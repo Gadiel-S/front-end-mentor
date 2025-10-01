@@ -1,6 +1,6 @@
-# Bem-vindo ao meu Repositório de Projetos
+# Bem-vindo ao meu Repositório de Projetos do Front End Mentor
 
-Este repositório contém vários projetos independentes. Escolha um deles para visualizar:
+Este repositório contém vários desafios concluídos do Front End Mentor. Escolha um deles para visualizar:
 
 - [QR Code Components](https://gadiel-s.github.io/front-end-mentor/qr-code-components)
 - [Product Preview Card Component](https://gadiel-s.github.io/front-end-mentor/product-preview-card-component)
