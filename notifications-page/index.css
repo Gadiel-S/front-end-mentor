@@ -1,0 +1,135 @@
+body {
+  font-size: 1.6rem;
+  background-color: hsl(210, 60%, 98%);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 70rem;
+  padding: 3rem 2.5rem 1rem;
+  margin: 5rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+}
+.container .panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.container .panel h1 {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container .panel h1 button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.4rem;
+  border: none;
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 0%, 100%);
+  padding: 0.2rem 1.1rem 0.4rem;
+  border-radius: 0.6rem;
+}
+.container .panel .panel-button {
+  border: none;
+  background: none;
+  color: hsl(219, 12%, 42%);
+  font-size: 1.6rem;
+}
+.container .panel .panel-button:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.container .notification {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.container .notification .block {
+  display: flex;
+  gap: 1.5rem;
+}
+.container .notification img {
+  width: 4rem;
+  height: 4rem;
+}
+.container .notification p {
+  color: hsl(219, 12%, 42%);
+}
+.container .notification .name {
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+}
+.container .notification .article, .group {
+  font-weight: 800;
+}
+.container .notification .private {
+  border: 0.1rem solid hsl(211, 68%, 94%);
+  border-radius: 0.5rem;
+  padding: 1.5rem 0 1.5rem 2rem;
+  margin-top: 1rem;
+}
+.container .notification .private:hover {
+  background-color: hsl(211, 68%, 94%);
+  cursor: pointer;
+}
+
+.new {
+  background-color: hsl(210, 60%, 98%);
+  cursor: pointer;
+}
+.container .notification .name:hover, .article:hover, .group {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.circle {
+  border: none;
+  cursor: default;
+  margin-left: 0.8rem;
+  background: red;
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 1.3rem;
+  }
+  .container {
+    border-radius: 0;
+    padding: 3rem 1rem 1rem;
+    margin-top: 0;
+  }
+  .container .notification img {
+    margin-left: 1rem;
+  }
+  .container .panel h1 {
+    font-size: 2rem;
+  }
+  .container .panel .panel-button {
+    font-size: 1.5rem;
+  }
+  .container .notification .private {
+    padding-right: 1rem;
+  }
+}
