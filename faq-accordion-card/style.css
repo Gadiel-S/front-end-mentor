@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(175, 103, 233, 1) 0%,
+    rgba(101, 101, 231, 1) 100%
+  );
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.component {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.25rem;
+  display: flex;
+  max-width: 60rem;
+  overflow: hidden;
+}
+.component-image {
+  margin: 4rem;
+  margin-left: -4rem;
+}
+.component-content {
+  margin: 4rem;
+  margin-left: 2rem;
+}
+.component-content .title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.component-content .content {
+  cursor: pointer;
+}
+.component-content .divider {
+  border-bottom: 1px solid hsl(240, 5%, 88%);
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.component-content .question-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.component-content .question {
+  font-size: 0.8rem;
+  color:  hsl(237, 12%, 33%);
+}
+.component-content .question:hover {
+  color: hsl(14, 88%, 65%);
+}
+.component-content .arrow {
+  margin-left: 4rem;
+  transition: 0.2s;
+}
+.component-content .answer {
+  max-width: 18rem;
+  color: hsl(237, 12%, 45%);
+  margin-top: 0.75rem;
+  transition: 0.2s;
+}
+
+.hidden {
+ font-size: 0;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.mark {
+  text-align: center;
+  margin: 2rem 0.5rem 2rem;
+}
+.mark a {
+  color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 920px) {
+  .component {
+    display: block;
+    overflow: visible;
+    max-width: 25rem;
+    margin: 10rem 1rem 0;
+    border-radius: 2rem;
+  }
+  .component-image {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .component-image .woman-online {
+    max-width: 15rem;
+    margin: -7rem 0 4rem;
+  }
+  .component-content {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+  }
+  .component-content .title {
+    text-align: center;
+  }
+  .component-content .arrow {
+    margin-left: 2rem;
+  }
+  .component-content .answer {
+    max-width: 16rem;
+  }
+}
