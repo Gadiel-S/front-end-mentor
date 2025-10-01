@@ -1,0 +1,62 @@
+body {
+  font-size: 2.8rem;
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.container {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 35rem;
+  border-radius: 15px;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 1.4rem;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  margin: 3rem 0;
+}
+.container p {
+  color: hsl(193, 38%, 86%);
+  margin-bottom: 1rem;
+}
+.container .divider {
+  width: 100%;
+}
+.container .dice {
+  background-color: hsl(150, 100%, 66%);
+  margin-top: -2rem;
+  padding: 2rem 2.2rem 1.8rem;
+  border-radius: 50%;
+  position: relative;
+  top: 4.2rem;
+}
+.container .dice:hover {
+  box-shadow: 0 0 50px 0 hsl(150, 100%, 66%);
+}
+
+.hide {
+  display: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
