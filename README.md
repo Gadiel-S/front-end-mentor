@@ -1,5 +1,8 @@
 # Bem-vindo ao meu Repositório de Projetos do Front End Mentor
 
+- Link do site : https://www.frontendmentor.io
+- Link do meu perfil : https://www.frontendmentor.io/profile/Gadiel-S
+
 Este repositório contém vários desafios concluídos do Front End Mentor. Escolha um deles para visualizar:
 
 - [QR Code Components](https://gadiel-s.github.io/front-end-mentor/qr-code-components)
@@ -11,3 +14,4 @@ Este repositório contém vários desafios concluídos do Front End Mentor. Esco
 - [Interactive Rating Component](https://gadiel-s.github.io/front-end-mentor/interactive-rating-component)
 - [Notifications Page](https://gadiel-s.github.io/front-end-mentor/notifications-page)
 - [Advice Generator App](https://gadiel-s.github.io/front-end-mentor/advice-generator-app)
+
